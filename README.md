@@ -10,4 +10,5 @@ This repository is used to distribute NetMon release packages.                  
       - These ZIPs are prebuilt runtime artifacts.                                                                   
       - Target machines do not need `npm run build` just to run the packaged release.                                        
       - Deployment documentation is bundled inside the server package.                                          
-      - Verify downloaded files against `SHA256SUMS.txt` before deployment.                                                                                                                                                       This repository is for release distribution only.
+      - Verify downloaded files against `SHA256SUMS.txt` before deployment.                                                                                                                                                       
+This repository is for release distribution only.
