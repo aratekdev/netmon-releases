@@ -2,11 +2,14 @@
 
 NetMon is a distributed network monitoring platform that uses lightweight agents and a central dashboard to provide visibility into latency, packet loss, incidents, alerts, and reports across multiple sites and endpoints.
 
+This repository distributes the **NetMon Community Edition** release packages.
+Commercial editions and expanded licensing are managed separately.
+
 At a high level:
 - the **server package** provides the dashboard, API, storage, alerts, and reporting
 - the **agent package** runs on monitored endpoints and sends heartbeat, ping, and traceroute data back to the server
 
-This repository is used to distribute official NetMon release packages.
+This repository is used to distribute official NetMon Community Edition release packages.
 
 Download the latest deployment assets from the **Releases** page.
 
