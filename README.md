@@ -77,6 +77,14 @@ Included guides:
 - `docs/client/RESET.md`
 - `docs/client/FULL-DEPLOYMENT-NO-VARS.md`
 
+## Commercial Editions
+
+This repository distributes the NetMon Community Edition.
+
+Commercial editions with expanded licensing, deployment options, and support are managed separately.
+
+For commercial inquiries, plan availability, or licensing requests, contact: `aratek.dev@gmail.com`
+
 ## Notes
 
 - These ZIPs are prebuilt runtime artifacts.
