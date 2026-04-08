@@ -1,13 +1,55 @@
-# NetMon Releases
+# NetMon Community Edition
 
-NetMon is a distributed network monitoring platform that uses lightweight agents and a central dashboard to provide visibility into latency, packet loss, incidents, alerts, and reports across multiple sites and endpoints.
+NetMon is a distributed network monitoring platform designed to give centralized visibility into network health across multiple sites, endpoints, and targets.
+
+It combines lightweight monitoring agents with a central dashboard to track latency, packet loss, incidents, alerts, and operational reports in one self-hosted system.
 
 This repository distributes the **NetMon Community Edition** release packages.
 Commercial editions and expanded licensing are managed separately.
 
+## What NetMon Does
+
 At a high level:
 - the **server package** provides the dashboard, API, storage, alerts, and reporting
 - the **agent package** runs on monitored endpoints and sends heartbeat, ping, and traceroute data back to the server
+
+This allows teams to monitor network health from real endpoints across different locations instead of relying on checks from only one central point.
+
+## Key Features
+
+- Distributed monitoring with lightweight agents
+- Central dashboard for multi-agent visibility
+- Multi-target monitoring per agent
+- Real-time latency and packet loss tracking
+- Aligned multi-target graphing
+- Incident detection for agent down, target down, intermittent loss, high latency, route changes, and system degradation
+- Traceroute collection and route-change visibility
+- Email alerts and scheduled reports
+- TXT and PDF reporting
+- Windows and Linux agent support
+- Linux server deployment with systemd support
+- Memory or SQLite storage
+- Offline queue resiliency for agents
+
+## Why NetMon
+
+NetMon is built for practical self-hosted monitoring in real environments.
+
+It is well suited for:
+- branch and site monitoring
+- internal network visibility
+- endpoint-to-target performance checks
+- lightweight Linux server deployments
+- teams that want centralized visibility without a heavy monitoring stack
+
+Compared with more complex monitoring platforms, NetMon focuses on:
+- lightweight deployment
+- simple operational model
+- real endpoint visibility
+- centralized incident and reporting workflow
+- practical self-hosted operation
+
+## Community Edition
 
 This repository is used to distribute official NetMon Community Edition release packages.
 
